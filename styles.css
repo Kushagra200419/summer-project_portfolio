@@ -482,11 +482,11 @@
   }
   
   .skills-content .right .python::before {
-    width: 80%;
+    width: 100%;
   }
   
   .skills-content .right .html::before {
-    width: 100%;
+    width: 95%;
   }
   
   .skills-content .right .css::before {
@@ -494,15 +494,15 @@
   }
   
   .skills-content .right .js::before {
-    width: 90%;
+    width: 75%;
   }
   
   .skills-content .right .bootstraps::before {
-    width: 80%;
+    width: 70%;
   }
   
   .skills-content .right .django::before {
-    width: 70%;
+    width: 80%;
   }
   
   /*  Projects  */
