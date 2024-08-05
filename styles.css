@@ -483,27 +483,82 @@
   
   .skills-content .right .python::before {
     width: 100%;
+    animation: python 2s;
   }
   
   .skills-content .right .html::before {
     width: 95%;
+    animation: html 2s;
   }
   
   .skills-content .right .css::before {
     width: 90%;
+    animation: css 2s;
   }
   
   .skills-content .right .js::before {
     width: 75%;
+    animation: js 2s;
   }
   
   .skills-content .right .bootstraps::before {
     width: 70%;
+    animation: bootstraps 2s;
   }
   
   .skills-content .right .django::before {
     width: 80%;
+    animation: django 2s;
   }
+  
+  @keyframes python{
+      0%{
+          width: 0%;
+      }
+      100%{
+          width: 100%;
+      }
+  }
+  @keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes css{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes js{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 75%;
+  }
+}
+@keyframes bootstraps{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 70%;
+  }
+}
+@keyframes django{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}
   
   /*  Projects  */
   .projects .title::after {
