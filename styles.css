@@ -483,32 +483,32 @@
   
   .skills-content .right .python::before {
     width: 100%;
-    animation: python 2s;
+    animation: python 1s;
   }
   
   .skills-content .right .html::before {
     width: 95%;
-    animation: html 2s;
+    animation: html 1s;
   }
   
   .skills-content .right .css::before {
     width: 90%;
-    animation: css 2s;
+    animation: css 1s;
   }
   
   .skills-content .right .js::before {
     width: 75%;
-    animation: js 2s;
+    animation: js 1s;
   }
   
   .skills-content .right .bootstraps::before {
     width: 70%;
-    animation: bootstraps 2s;
+    animation: bootstraps 1s;
   }
   
   .skills-content .right .django::before {
     width: 80%;
-    animation: django 2s;
+    animation: django 1s;
   }
   
   @keyframes python{
